@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pittsburgh Stage Calls</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --ink: #0e0b08; --cream: #f5f0e8; --gold: #c8922a;
+    --rust: #b84c2b; --sage: #3d5a47; --pale: #ece7db; --border: #c8bfaf;
+  }
+  body { background: var(--cream); color: var(--ink); font-family: 'DM Mono', monospace; min-height: 100vh; }
+
+  .header-rule { height: 6px; background: repeating-linear-gradient(90deg, var(--rust) 0 8px, var(--gold) 8px 16px, var(--ink) 16px 24px); }
+  header { border-bottom: 3px double var(--ink); }
+  .masthead-inner {
+    max-width: 960px; margin: 0 auto; padding: 28px 24px 20px;
+    display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 16px;
+  }
+  .masthead-left { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; line-height: 1.8; color: #5a4e3e; }
+  .masthead-center { text-align: center; }
+  .masthead-title { font-family: 'Playfair Display', serif; font-size: clamp(28px,5vw,52px); font-weight: 900; letter-spacing: -0.02em; line-height: 1; text-transform: uppercase; }
+  .masthead-sub { font-size: 10px; letter-spacing: 0.25em; text-transform: uppercase; margin-top: 6px; color: var(--rust); }
+  .masthead-right { text-align: right; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: #5a4e3e; line-height: 1.8; }
+  .divider-ornament { text-align: center; font-size: 18px; letter-spacing: 12px; color: var(--gold); padding: 6px 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin: 0 24px; }
+
+  .controls { max-width: 960px; margin: 28px auto 0; padding: 0 24px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
+  .filter-label { font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: #5a4e3e; margin-right: 4px; }
+  .filter-group { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .filter-btn { background: transparent; border: 1.5px solid var(--border); color: var(--ink); font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; padding: 6px 14px; cursor: pointer; transition: all 0.15s; }
+  .filter-btn:hover { background: var(--ink); color: var(--cream); border-color: var(--ink); }
+  .filter-btn.active { background: var(--rust); border-color: var(--rust); color: #fff; }
+  .count-badge { font-size: 10px; letter-spacing: 0.1em; color: #5a4e3e; white-space: nowrap; }
+
+  .listings { max-width: 960px; margin: 24px auto 60px; padding: 0 24px; }
+  .section-rule { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+  .section-rule-line { flex: 1; height: 1px; background: var(--border); }
+  .section-rule-text { font-size: 9px; letter-spacing: 0.22em; text-transform: uppercase; color: #7a6e5e; white-space: nowrap; }
+
+  .audition-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0; }
+  .card { border: 1px solid var(--border); margin: -1px 0 0 -1px; padding: 22px 20px 20px; position: relative; background: var(--cream); transition: background 0.15s; }
+  .card:hover { background: var(--pale); z-index: 1; }
+  .card-tag { font-size: 8px; letter-spacing: 0.22em; text-transform: uppercase; color: var(--rust); margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
+  .card-tag::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+  .card-show { font-family: 'Playfair Display', serif; font-size: 17px; font-weight: 700; line-height: 1.2; margin-bottom: 4px; }
+  .card-company { font-size: 10px; letter-spacing: 0.1em; color: var(--sage); text-transform: uppercase; margin-bottom: 14px; }
+  .card-meta { display: flex; flex-direction: column; gap: 5px; }
+  .meta-row { display: flex; gap: 10px; font-size: 10px; line-height: 1.4; }
+  .meta-key { color: #7a6e5e; letter-spacing: 0.08em; text-transform: uppercase; min-width: 52px; flex-shrink: 0; }
+  .meta-val { color: var(--ink); }
+  .card-footer { margin-top: 16px; padding-top: 12px; border-top: 1px dashed var(--border); display: flex; justify-content: space-between; align-items: center; }
+  .type-pill { font-size: 8px; letter-spacing: 0.15em; text-transform: uppercase; padding: 3px 9px; border: 1px solid currentColor; }
+  .type-pill.musical { color: var(--gold); }
+  .type-pill.play { color: var(--sage); }
+  .type-pill.ballet { color: #7a5a9a; }
+  .type-pill.variety { color: var(--rust); }
+  .type-pill.open { color: #3a6a8a; }
+  .card-link { font-size: 9px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--rust); text-decoration: none; border-bottom: 1px dotted var(--rust); }
+  .card-link:hover { color: var(--ink); border-color: var(--ink); }
+
+  .state-box { text-align: center; padding: 60px 24px; color: #7a6e5e; grid-column: 1 / -1; }
+  .state-box .icon { font-size: 36px; margin-bottom: 14px; }
+  .state-box p { font-size: 11px; letter-spacing: 0.1em; }
+
+  .update-bar { background: var(--ink); color: var(--gold); text-align: center; padding: 8px 24px; font-size: 9px; letter-spacing: 0.18em; text-transform: uppercase; }
+
+  footer { border-top: 3px double var(--ink); text-align: center; padding: 20px 24px; font-size: 9px; letter-spacing: 0.15em; text-transform: uppercase; color: #7a6e5e; }
+  .refresh-btn { background: var(--ink); color: var(--cream); border: none; font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; padding: 10px 28px; cursor: pointer; transition: background 0.15s; margin-top: 16px; display: inline-block; }
+  .refresh-btn:hover { background: var(--rust); }
+
+  @media (max-width: 600px) {
+    .masthead-inner { grid-template-columns: 1fr; text-align: center; }
+    .masthead-left, .masthead-right { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-rule"></div>
+  <div class="masthead-inner">
+    <div class="masthead-left">Est. Founded<br>On the Three Rivers<br>Pittsburgh, PA<br>&nbsp;<br>Theatre District</div>
+    <div class="masthead-center">
+      <div class="masthead-title">Pittsburgh<br>Stage Calls</div>
+      <div class="masthead-sub">&#9733; Open Auditions &amp; Casting Calls &#9733;</div>
+    </div>
+    <div class="masthead-right">Updated<br><span id="today-date"></span><br>&nbsp;<br>All Companies</div>
+  </div>
+  <div class="divider-ornament">&#10022; &#10022; &#10022;</div>
+</header>
+
+<div class="update-bar" id="update-bar">Loading latest listings…</div>
+
+<div class="controls">
+  <div class="filter-group">
+    <span class="filter-label">Filter:</span>
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="musical">Musical</button>
+    <button class="filter-btn" data-filter="play">Play</button>
+    <button class="filter-btn" data-filter="ballet">Ballet/Dance</button>
+    <button class="filter-btn" data-filter="open">Open Call</button>
+  </div>
+  <div class="count-badge" id="count-badge">—</div>
+</div>
+
+<main class="listings">
+  <div class="section-rule">
+    <div class="section-rule-line"></div>
+    <div class="section-rule-text" id="section-label">Upcoming Auditions</div>
+    <div class="section-rule-line"></div>
+  </div>
+  <div class="audition-grid" id="grid">
+    <div class="state-box"><div class="icon">🎭</div><p>Fetching auditions…</p></div>
+  </div>
+</main>
+
+<footer>
+  <div>Pittsburgh CLO · Pittsburgh Musical Theater · Pittsburgh Public Theater · Front Porch Theatricals · Pittsburgh Ballet Theatre · Prime Stage · Pittsburgh Unifieds</div>
+  <div style="margin-top:8px;">Always verify details directly with each company — listings may change.</div>
+  <button class="refresh-btn" onclick="loadData()">&#8635; Refresh</button>
+</footer>
+
+<script>
+document.getElementById('today-date').textContent =
+  new Date().toLocaleDateString('en-US', {month:'long', day:'numeric', year:'numeric'});
+
+let allAuditions = [];
+let currentFilter = 'all';
+
+// ── fetch auditions.json (generated by the scraper) ──────────────────────
+async function loadData() {
+  document.getElementById('update-bar').textContent = 'Refreshing listings…';
+  try {
+    const res = await fetch('auditions.json?_=' + Date.now());
+    if (!res.ok) throw new Error(res.status);
+    const data = await res.json();
+    allAuditions = data.auditions || [];
+
+    const ts = data.last_updated
+      ? new Date(data.last_updated).toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric', hour:'2-digit', minute:'2-digit'})
+      : 'unknown';
+    document.getElementById('update-bar').textContent =
+      `Last scraped: ${ts}  ·  ${allAuditions.length} listing(s) found`;
+    document.getElementById('section-label').textContent =
+      `Upcoming Auditions — scraped ${ts}`;
+
+  } catch (e) {
+    document.getElementById('update-bar').textContent =
+      'Could not load auditions.json — run the scraper first.';
+    allAuditions = [];
+  }
+  renderGrid(currentFilter);
+}
+
+// ── render ────────────────────────────────────────────────────────────────
+function renderCard(a) {
+  const safeType = (a.type || 'open').toLowerCase();
+  return `
+    <div class="card" data-type="${safeType}">
+      <div class="card-tag">${esc(a.company)}</div>
+      <div class="card-show">${esc(a.show)}</div>
+      <div class="card-company">${safeType.toUpperCase()}</div>
+      <div class="card-meta">
+        <div class="meta-row"><span class="meta-key">When</span><span class="meta-val">${esc(a.dates)}</span></div>
+        <div class="meta-row"><span class="meta-key">Where</span><span class="meta-val">${esc(a.location)}</span></div>
+        <div class="meta-row"><span class="meta-key">Notes</span><span class="meta-val">${esc(a.details)}</span></div>
+      </div>
+      <div class="card-footer">
+        <span class="type-pill ${safeType}">${safeType}</span>
+        <a class="card-link" href="${esc(a.url)}" target="_blank" rel="noopener">Details →</a>
+      </div>
+    </div>`;
+}
+
+function renderGrid(filter) {
+  const grid = document.getElementById('grid');
+  const badge = document.getElementById('count-badge');
+  const filtered = filter === 'all' ? allAuditions : allAuditions.filter(a => (a.type||'').toLowerCase() === filter);
+
+  if (!filtered.length) {
+    grid.innerHTML = `<div class="state-box"><div class="icon">🎭</div><p>${allAuditions.length ? 'No listings match that filter.' : 'No listings found — try refreshing.'}</p></div>`;
+  } else {
+    grid.innerHTML = filtered.map(renderCard).join('');
+  }
+  badge.textContent = `${filtered.length} listing${filtered.length !== 1 ? 's' : ''}`;
+}
+
+function esc(str) {
+  return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ── filter buttons ────────────────────────────────────────────────────────
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentFilter = btn.dataset.filter;
+    renderGrid(currentFilter);
+  });
+});
+
+loadData();
+</script>
+</body>
+</html>
