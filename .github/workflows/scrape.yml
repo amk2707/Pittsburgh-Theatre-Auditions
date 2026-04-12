@@ -2,12 +2,12 @@ name: Scrape Pittsburgh Auditions
 
 on:
   schedule:
-    # Runs every Monday and Thursday at 8am ET (12:00 UTC)
-    - cron: "0 12 * * 1,4"
-  workflow_dispatch:   # lets you also trigger it manually from GitHub UI
+    # Daily at 8:00 AM ET (12:00 UTC, adjust seasonally if desired)
+    - cron: "0 12 * * *"
+  workflow_dispatch:
 
 permissions:
-  contents: write      # needed to commit auditions.json back to the repo
+  contents: write
 
 jobs:
   scrape:
@@ -25,14 +25,13 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4
 
-      - name: Run scraper
+      - name: Run agentic scraper
         run: python scrape_auditions.py
 
       - name: Commit updated auditions.json
         run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add auditions.json
-          # Only commit if the file actually changed
-          git diff --cached --quiet || git commit -m "chore: update auditions.json [skip ci]"
+          git diff --cached --quiet || git commit -m "chore: daily auditions refresh [skip ci]"
           git push

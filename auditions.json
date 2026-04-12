@@ -1,1 +1,206 @@
-{ "last_updated": "2026-03-25T12:00:00+00:00", "count": 0, "auditions": [] } ``` 4. Click **Commit changes** **Then get the Actions tab working:** The workflow file needs to be in exactly the right place. In your repo, check that you have: ``` .github/  workflows/  scrape.yml
+{
+  "last_updated": "2026-04-12T13:59:11.632498+00:00",
+  "count": 20,
+  "auditions": [
+    {
+      "show": "Auditions",
+      "company": "Pittsburgh CLO",
+      "type": "musical",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "Join Our E-Club Summer 2026 Buy Tickets Box Office & Ticket Information Group Tickets Student Matinees Frequently Asked Questions Visit A MUSICAL CHRISTMAS CAROL Sensory Friendly Production Accessibility Bag Policy Child Policy Dining Directions and Parking Wh",
+      "url": "https://pittsburghclo.org/about/clo-auditions",
+      "source": "pittsburghclo.org"
+    },
+    {
+      "show": "Summer 2026 Auditions",
+      "company": "Pittsburgh CLO",
+      "type": "musical",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "Summer 2026 Auditions",
+      "url": "https://pittsburghclo.org/about/clo-auditions/2026-summer-series-auditions",
+      "source": "pittsburghclo.org"
+    },
+    {
+      "show": "PROFESSIONAL AUDITIONS",
+      "company": "Pittsburgh Musical Theater",
+      "type": "musical",
+      "dates": "January 15, 2026, January 16, 2025, April 13, 2026",
+      "location": "Street Pittsburgh, PA 15220 Attention",
+      "details": "Shows & Events 25/26 SEASON Upcoming Shows DEAR EVAN HANSEN Past Shows EVIL DEAD THE MUSICAL DISNEY'S NEWSIES A LYRICAL CHRISTMAS CAROL ANNIE BEETLEJUICE JR. VIEW FULL SEASON SPECIAL EVENTS Spring Student Cabaret Student Matinées Broadway at the Overlook Tales",
+      "url": "https://pittsburghmusicals.com/work/audition",
+      "source": "pittsburghmusicals.com"
+    },
+    {
+      "show": "Auditions & Casting",
+      "company": "Pittsburgh Musical Theater",
+      "type": "musical",
+      "dates": "Check website for dates",
+      "location": "327 S Main St, Pittsburgh, PA",
+      "details": "View All PMT Administrative Positions Become a Resident Artist Auditions & Casting Production Technicians & Designers Internships",
+      "url": "https://pittsburghmusicals.com/work",
+      "source": "pittsburghmusicals.com"
+    },
+    {
+      "show": "Audition Information (Under 18)",
+      "company": "Pittsburgh Musical Theater",
+      "type": "musical",
+      "dates": "Check website for dates",
+      "location": "327 S Main St, Pittsburgh, PA",
+      "details": "To schedule an audition, you must be a registered student. For more information refer to our Audition Information (Under 18) .",
+      "url": "https://pittsburghmusicals.com/work/minors",
+      "source": "pittsburghmusicals.com"
+    },
+    {
+      "show": "AUDITIONS",
+      "company": "Prime Stage Theatre",
+      "type": "play",
+      "dates": "July 20",
+      "location": "Nonprofits Link to Greater Pittsburgh Arts Council Link to PA Council on the Arts Link to ",
+      "details": "Home Events Current Events Monday Specials Past Events Drama Awards Productions Productions Tickets Monday Specials Mr Edgar A Poe Presents Freedom House Speak Past Sprouts Productions Rosa Parks and the Montgomery Bus Boycott The Boxcar-Children Harriet-Tubma",
+      "url": "https://primestage.com/about-2/auditions",
+      "source": "primestage.com"
+    },
+    {
+      "show": "Company Auditions for the 2026-27 Season",
+      "company": "Pittsburgh Ballet Theatre",
+      "type": "ballet",
+      "dates": "March 15, 2026, August 20, May 20",
+      "location": "Application Guidelines Pittsburgh Ballet Theatre",
+      "details": "Pittsburgh Ballet Theatre Left Arrow Right Arrow Close Expand Skip to content Menu Contact/Location Performances 2025-2026 Season Spring Mix A Midsummer Night’s Dream with the PBT Orchestra Accessibility Sensory-friendly Performances 2026-2027 Season Giselle w",
+      "url": "https://pbt.org/company-auditions",
+      "source": "pbt.org"
+    },
+    {
+      "show": "Auditions",
+      "company": "Pittsburgh Ballet Theatre",
+      "type": "ballet",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "Auditions",
+      "url": "https://pbt.org/pbts/auditions25",
+      "source": "pbt.org"
+    },
+    {
+      "show": "Careers & Auditions",
+      "company": "Pittsburgh Ballet Theatre",
+      "type": "ballet",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "Careers & Auditions",
+      "url": "https://pbt.org/the-company/about/employment",
+      "source": "pbt.org"
+    },
+    {
+      "show": "PBT School Auditions",
+      "company": "Pittsburgh Ballet Theatre",
+      "type": "ballet",
+      "dates": "April 30",
+      "location": "Pittsburgh, PA",
+      "details": "Pittsburgh Ballet Theatre Left Arrow Right Arrow Close Expand Skip to content Menu Contact/Location Performances 2025-2026 Season Spring Mix A Midsummer Night’s Dream with the PBT Orchestra Accessibility Sensory-friendly Performances 2026-2027 Season Giselle w",
+      "url": "https://pbt.org/auditions26",
+      "source": "pbt.org"
+    },
+    {
+      "show": "AUDITIONS",
+      "company": "Front Porch Theatricals",
+      "type": "ballet",
+      "dates": "April 20, April 21, April 22",
+      "location": "Pittsburgh, PA",
+      "details": "top of page Pittsburgh’s Boutique Professional Musical Theater Company HOME TICKETS AUDITIONS INTERNSHIPS PAST SEASONS 2025 Baby 2025 Sunday in the Park with George 2023 Falsettos 2023 Merrily We Roll Along 2022 A Man of No Importance 2022 Grand Hotel 2019 Bri",
+      "url": "https://frontporchpgh.com/auditions",
+      "source": "frontporchpgh.com"
+    },
+    {
+      "show": "AUDITION ACCOMPANIMENT TRACK HELP",
+      "company": "Pittsburgh Unifieds",
+      "type": "open",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "AUDITION ACCOMPANIMENT TRACK HELP",
+      "url": "https://pittsburghunifiedsauditions.com/audition-accompaniment-track-help",
+      "source": "pittsburghunifiedsauditions.com"
+    },
+    {
+      "show": "2025 AUDITION BOOKLET",
+      "company": "Pittsburgh Unifieds",
+      "type": "open",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "2025 AUDITION BOOKLET",
+      "url": "https://pittsburghunifiedsauditions.com/2025-audition-booklet",
+      "source": "pittsburghunifiedsauditions.com"
+    },
+    {
+      "show": "IN-PERSON MT/ACTING AUDITION",
+      "company": "Pittsburgh Unifieds",
+      "type": "open",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "IN-PERSON MT/ACTING AUDITION",
+      "url": "https://pittsburghunifiedsauditions.com/in-person-mt-acting-auditions",
+      "source": "pittsburghunifiedsauditions.com"
+    },
+    {
+      "show": "VIRTUAL MT/ACTING AUDITION",
+      "company": "Pittsburgh Unifieds",
+      "type": "open",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "VIRTUAL MT/ACTING AUDITION",
+      "url": "https://pittsburghunifiedsauditions.com/virtual-mt-acting-auditions",
+      "source": "pittsburghunifiedsauditions.com"
+    },
+    {
+      "show": "Auditions",
+      "company": "Pittsburgh Opera",
+      "type": "open",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "Auditions",
+      "url": "https://pittsburghopera.org/resident-artists/auditions",
+      "source": "pittsburghopera.org"
+    },
+    {
+      "show": "Auditions",
+      "company": "Pittsburgh Opera",
+      "type": "open",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "Auditions",
+      "url": "https://pittsburghopera.org/our-team/auditions",
+      "source": "pittsburghopera.org"
+    },
+    {
+      "show": "Download the full audition announcement here.",
+      "company": "Pittsburgh Opera",
+      "type": "open",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "Download the full audition announcement here.",
+      "url": "https://pittsburghopera.org/uploads/Pittsburgh_Opera_Chorus_Audition_Announcement_2026.pdf",
+      "source": "pittsburghopera.org"
+    },
+    {
+      "show": "Download the full audition announcement here.",
+      "company": "Pittsburgh Opera",
+      "type": "open",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "Download the full audition announcement here.",
+      "url": "https://pittsburghopera.org/uploads/2026_PRINCIPAL_CLARINET_AUDITION_POSTING_post_season_announcement.pdf",
+      "source": "pittsburghopera.org"
+    },
+    {
+      "show": "Download the Audition Excerpts",
+      "company": "Pittsburgh Opera",
+      "type": "open",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "Download the Audition Excerpts",
+      "url": "https://pittsburghopera.org/uploads/Principal_Clarinet_Audition_Excerpts_2026.pdf",
+      "source": "pittsburghopera.org"
+    }
+  ]
+}
