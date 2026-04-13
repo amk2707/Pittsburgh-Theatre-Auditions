@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-12T13:59:11.632498+00:00",
-  "count": 20,
+  "last_updated": "2026-04-13T12:55:03.785586+00:00",
+  "count": 21,
   "auditions": [
     {
       "show": "Auditions",
@@ -51,6 +51,16 @@
       "details": "To schedule an audition, you must be a registered student. For more information refer to our Audition Information (Under 18) .",
       "url": "https://pittsburghmusicals.com/work/minors",
       "source": "pittsburghmusicals.com"
+    },
+    {
+      "show": "Auditioning for the Student Actor: A 3-Day Workshop (Ages 15-17)",
+      "company": "Pittsburgh Public Theater",
+      "type": "play",
+      "dates": "Check website for dates",
+      "location": "O'Reilly Theater, Pittsburgh",
+      "details": "Auditioning for the Student Actor: A 3-Day Workshop (Ages 15-17)",
+      "url": "https://ppt.org/production/105280/auditioning-for-the-student-actor-a-3-day-workshop-ages-15-17",
+      "source": "ppt.org"
     },
     {
       "show": "AUDITIONS",
