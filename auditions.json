@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-22T12:54:20.729593+00:00",
-  "count": 21,
+  "last_updated": "2026-04-23T12:54:07.121977+00:00",
+  "count": 22,
   "auditions": [
     {
       "show": "Auditions",
@@ -160,6 +160,16 @@
       "location": "Pittsburgh, PA",
       "details": "VIRTUAL MT/ACTING AUDITION",
       "url": "https://pittsburghunifiedsauditions.com/virtual-mt-acting-auditions",
+      "source": "pittsburghunifiedsauditions.com"
+    },
+    {
+      "show": "Audition listing",
+      "company": "Pittsburgh Unifieds",
+      "type": "open",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "See source website for full audition details.",
+      "url": "https://pittsburghunifiedsauditions.com/faq",
       "source": "pittsburghunifiedsauditions.com"
     },
     {
