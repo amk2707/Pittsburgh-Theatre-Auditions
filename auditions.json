@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-04T13:16:59.310031+00:00",
+  "last_updated": "2026-05-05T13:03:29.766471+00:00",
   "count": 21,
   "auditions": [
     {
@@ -26,7 +26,7 @@
       "show": "PROFESSIONAL AUDITIONS",
       "company": "Pittsburgh Musical Theater",
       "type": "musical",
-      "dates": "January 15, 2026, January 16, 2025, April 13, 2026",
+      "dates": "May 4",
       "location": "Street Pittsburgh, PA 15220 Attention",
       "details": "Shows & Events 25/26 SEASON Upcoming Shows DEAR EVAN HANSEN Past Shows EVIL DEAD THE MUSICAL DISNEY'S NEWSIES A LYRICAL CHRISTMAS CAROL ANNIE BEETLEJUICE JR. VIEW FULL SEASON SPECIAL EVENTS Spring Student Cabaret Student Matinées Broadway at the Overlook Tales",
       "url": "https://pittsburghmusicals.com/work/audition",
@@ -78,8 +78,18 @@
       "type": "ballet",
       "dates": "March 15, 2026, August 20, May 20",
       "location": "Application Guidelines Pittsburgh Ballet Theatre",
-      "details": "Pittsburgh Ballet Theatre Left Arrow Right Arrow Close Expand Skip to content Menu Contact/Location Performances 2025-2026 Season A Midsummer Night’s Dream with the PBT Orchestra Accessibility Sensory-friendly Performances 2026-2027 Season Giselle with the PBT",
+      "details": "Pittsburgh Ballet Theatre Left Arrow Right Arrow Close Expand Skip to content Menu Contact/Location Tickets 2025-2026 Season A Midsummer Night’s Dream with the PBT Orchestra Accessibility Sensory-friendly Performances 2026-2027 Season Giselle with the PBT Orch",
       "url": "https://pbt.org/company-auditions",
+      "source": "pbt.org"
+    },
+    {
+      "show": "Auditions",
+      "company": "Pittsburgh Ballet Theatre",
+      "type": "ballet",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "Auditions",
+      "url": "https://pbt.org/the-company/about/employment",
       "source": "pbt.org"
     },
     {
@@ -93,22 +103,12 @@
       "source": "pbt.org"
     },
     {
-      "show": "Careers & Auditions",
-      "company": "Pittsburgh Ballet Theatre",
-      "type": "ballet",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "Careers & Auditions",
-      "url": "https://pbt.org/the-company/about/employment",
-      "source": "pbt.org"
-    },
-    {
       "show": "PBT School Auditions",
       "company": "Pittsburgh Ballet Theatre",
       "type": "ballet",
       "dates": "May 15",
       "location": "Pittsburgh, PA",
-      "details": "Pittsburgh Ballet Theatre Left Arrow Right Arrow Close Expand Skip to content Menu Contact/Location Performances 2025-2026 Season A Midsummer Night’s Dream with the PBT Orchestra Accessibility Sensory-friendly Performances 2026-2027 Season Giselle with the PBT",
+      "details": "Pittsburgh Ballet Theatre Left Arrow Right Arrow Close Expand Skip to content Menu Contact/Location Tickets 2025-2026 Season A Midsummer Night’s Dream with the PBT Orchestra Accessibility Sensory-friendly Performances 2026-2027 Season Giselle with the PBT Orch",
       "url": "https://pbt.org/auditions26",
       "source": "pbt.org"
     },
