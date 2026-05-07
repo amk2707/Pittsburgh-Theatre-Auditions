@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-06T13:23:35.153416+00:00",
-  "count": 22,
+  "last_updated": "2026-05-07T13:23:16.179127+00:00",
+  "count": 21,
   "auditions": [
     {
       "show": "Auditions",
@@ -89,17 +89,17 @@
       "dates": "Check website for dates",
       "location": "Pittsburgh, PA",
       "details": "Auditions",
-      "url": "https://pbt.org/the-company/about/employment",
+      "url": "https://pbt.org/pbts/auditions25",
       "source": "pbt.org"
     },
     {
-      "show": "Auditions",
+      "show": "Careers & Auditions",
       "company": "Pittsburgh Ballet Theatre",
       "type": "ballet",
       "dates": "Check website for dates",
       "location": "Pittsburgh, PA",
-      "details": "Auditions",
-      "url": "https://pbt.org/pbts/auditions25",
+      "details": "Careers & Auditions",
+      "url": "https://pbt.org/the-company/about/employment",
       "source": "pbt.org"
     },
     {
@@ -120,16 +120,6 @@
       "location": "Pittsburgh, PA",
       "details": "top of page Pittsburgh’s Boutique Professional Musical Theater Company HOME TICKETS AUDITIONS INTERNSHIPS PAST SEASONS 2025 Baby 2025 Sunday in the Park with George 2023 Falsettos 2023 Merrily We Roll Along 2022 A Man of No Importance 2022 Grand Hotel 2019 Bri",
       "url": "https://frontporchpgh.com/auditions",
-      "source": "frontporchpgh.com"
-    },
-    {
-      "show": "Audition listing",
-      "company": "Front Porch Theatricals",
-      "type": "musical",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "See source website for full audition details.",
-      "url": "https://frontporchpgh.com/",
       "source": "frontporchpgh.com"
     },
     {
