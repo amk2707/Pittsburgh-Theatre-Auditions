@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-19T14:27:04.456762+00:00",
-  "count": 21,
+  "last_updated": "2026-05-20T14:27:25.084109+00:00",
+  "count": 18,
   "auditions": [
     {
       "show": "Auditions",
@@ -180,36 +180,6 @@
       "location": "Pittsburgh, PA",
       "details": "Auditions",
       "url": "https://pittsburghopera.org/our-team/auditions",
-      "source": "pittsburghopera.org"
-    },
-    {
-      "show": "Download the full audition announcement here.",
-      "company": "Pittsburgh Opera",
-      "type": "open",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "Download the full audition announcement here.",
-      "url": "https://pittsburghopera.org/uploads/Pittsburgh_Opera_Chorus_Audition_Announcement_2026.pdf",
-      "source": "pittsburghopera.org"
-    },
-    {
-      "show": "Download the full audition announcement here.",
-      "company": "Pittsburgh Opera",
-      "type": "open",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "Download the full audition announcement here.",
-      "url": "https://pittsburghopera.org/uploads/2026_PRINCIPAL_CLARINET_AUDITION_POSTING_post_season_announcement.pdf",
-      "source": "pittsburghopera.org"
-    },
-    {
-      "show": "Download the Audition Excerpts",
-      "company": "Pittsburgh Opera",
-      "type": "open",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "Download the Audition Excerpts",
-      "url": "https://pittsburghopera.org/uploads/Principal_Clarinet_Audition_Excerpts_2026.pdf",
       "source": "pittsburghopera.org"
     }
   ]
