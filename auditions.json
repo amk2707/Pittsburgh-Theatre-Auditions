@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-09T14:14:05.043039+00:00",
-  "count": 18,
+  "last_updated": "2026-06-10T14:45:02.734348+00:00",
+  "count": 19,
   "auditions": [
     {
       "show": "Auditions",
@@ -116,10 +116,20 @@
       "show": "AUDITIONS",
       "company": "Front Porch Theatricals",
       "type": "ballet",
-      "dates": "April 20, April 21, April 22",
+      "dates": "Check website for dates",
       "location": "Pittsburgh, PA",
       "details": "top of page Pittsburgh’s Boutique Professional Musical Theater Company HOME TICKETS AUDITIONS INTERNSHIPS PAST SEASONS 2025 Baby 2025 Sunday in the Park with George 2023 Falsettos 2023 Merrily We Roll Along 2022 A Man of No Importance 2022 Grand Hotel 2019 Bri",
       "url": "https://frontporchpgh.com/auditions",
+      "source": "frontporchpgh.com"
+    },
+    {
+      "show": "Audition listing",
+      "company": "Front Porch Theatricals",
+      "type": "musical",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "See source website for full audition details.",
+      "url": "https://frontporchpgh.com/copy-of-auditions",
       "source": "frontporchpgh.com"
     },
     {
