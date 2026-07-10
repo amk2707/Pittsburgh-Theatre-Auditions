@@ -1,27 +1,7 @@
 {
-  "last_updated": "2026-07-09T14:22:13.179158+00:00",
-  "count": 15,
+  "last_updated": "2026-07-10T13:53:06.383046+00:00",
+  "count": 11,
   "auditions": [
-    {
-      "show": "Auditions",
-      "company": "Pittsburgh CLO",
-      "type": "musical",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "Join Our E-Club Summer 2026 Buy Tickets Box Office & Ticket Information Group Tickets Student Matinees Frequently Asked Questions Visit A MUSICAL CHRISTMAS CAROL Sensory Friendly Production Accessibility Bag Policy Child Policy Dining Directions and Parking Wh",
-      "url": "https://pittsburghclo.org/about/clo-auditions",
-      "source": "pittsburghclo.org"
-    },
-    {
-      "show": "Summer 2026 Auditions",
-      "company": "Pittsburgh CLO",
-      "type": "musical",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "Summer 2026 Auditions",
-      "url": "https://pittsburghclo.org/about/clo-auditions/2026-summer-series-auditions",
-      "source": "pittsburghclo.org"
-    },
     {
       "show": "PROFESSIONAL AUDITIONS",
       "company": "Pittsburgh Musical Theater",
@@ -131,26 +111,6 @@
       "details": "VIRTUAL MT/ACTING AUDITION",
       "url": "https://pittsburghunifiedsauditions.com/virtual-mt-acting-auditions",
       "source": "pittsburghunifiedsauditions.com"
-    },
-    {
-      "show": "Auditions",
-      "company": "Pittsburgh Opera",
-      "type": "open",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "Auditions",
-      "url": "https://pittsburghopera.org/resident-artists/auditions",
-      "source": "pittsburghopera.org"
-    },
-    {
-      "show": "Auditions",
-      "company": "Pittsburgh Opera",
-      "type": "open",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "Auditions",
-      "url": "https://pittsburghopera.org/our-team/auditions",
-      "source": "pittsburghopera.org"
     }
   ]
 }
