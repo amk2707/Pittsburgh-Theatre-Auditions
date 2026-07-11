@@ -1,7 +1,27 @@
 {
-  "last_updated": "2026-07-10T13:53:06.383046+00:00",
+  "last_updated": "2026-07-11T12:44:34.063607+00:00",
   "count": 11,
   "auditions": [
+    {
+      "show": "Auditions",
+      "company": "Pittsburgh CLO",
+      "type": "musical",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "Join Our E-Club Summer 2026 Buy Tickets Box Office & Ticket Information Group Tickets Student Matinees Frequently Asked Questions Visit A MUSICAL CHRISTMAS CAROL Sensory Friendly Production Accessibility Bag Policy Child Policy Dining Directions and Parking Wh",
+      "url": "https://pittsburghclo.org/about/clo-auditions",
+      "source": "pittsburghclo.org"
+    },
+    {
+      "show": "Summer 2026 Auditions",
+      "company": "Pittsburgh CLO",
+      "type": "musical",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "Summer 2026 Auditions",
+      "url": "https://pittsburghclo.org/about/clo-auditions/2026-summer-series-auditions",
+      "source": "pittsburghclo.org"
+    },
     {
       "show": "PROFESSIONAL AUDITIONS",
       "company": "Pittsburgh Musical Theater",
@@ -31,46 +51,6 @@
       "details": "To schedule an audition, you must be a registered student. For more information refer to our Audition Information (Under 18) .",
       "url": "https://pittsburghmusicals.com/work/minors",
       "source": "pittsburghmusicals.com"
-    },
-    {
-      "show": "AUDITIONS",
-      "company": "Prime Stage Theatre",
-      "type": "play",
-      "dates": "July 20",
-      "location": "Nonprofits Link to Greater Pittsburgh Arts Council Link to PA Council on the Arts Link to ",
-      "details": "Home Events Current Events Monday Specials Past Events Drama Awards Productions Productions Tickets Monday Specials Mr Edgar A Poe Presents Freedom House Speak Past Sprouts Productions Rosa Parks and the Montgomery Bus Boycott The Boxcar-Children Harriet-Tubma",
-      "url": "https://primestage.com/about-2/auditions",
-      "source": "primestage.com"
-    },
-    {
-      "show": "Company Auditions for the 2026-27 Season",
-      "company": "Pittsburgh Ballet Theatre",
-      "type": "ballet",
-      "dates": "March 15, 2026, August 20, May 20",
-      "location": "Application Guidelines Pittsburgh Ballet Theatre",
-      "details": "Pittsburgh Ballet Theatre Left Arrow Right Arrow Close Expand Skip to content Menu Contact/Location Tickets 2026-2027 Season Giselle with the PBT Orchestra The Nutcracker Alice in Wonderland Spring Mix: World Premieres The Sleeping Beauty with the PBT Orchestr",
-      "url": "https://pbt.org/company-auditions",
-      "source": "pbt.org"
-    },
-    {
-      "show": "Auditions",
-      "company": "Pittsburgh Ballet Theatre",
-      "type": "ballet",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "Auditions",
-      "url": "https://pbt.org/pbts/auditions25",
-      "source": "pbt.org"
-    },
-    {
-      "show": "Careers & Auditions",
-      "company": "Pittsburgh Ballet Theatre",
-      "type": "ballet",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "Careers & Auditions",
-      "url": "https://pbt.org/the-company/about/employment",
-      "source": "pbt.org"
     },
     {
       "show": "AUDITIONS",
@@ -111,6 +91,26 @@
       "details": "VIRTUAL MT/ACTING AUDITION",
       "url": "https://pittsburghunifiedsauditions.com/virtual-mt-acting-auditions",
       "source": "pittsburghunifiedsauditions.com"
+    },
+    {
+      "show": "Auditions",
+      "company": "Pittsburgh Opera",
+      "type": "open",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "Auditions",
+      "url": "https://pittsburghopera.org/resident-artists/auditions",
+      "source": "pittsburghopera.org"
+    },
+    {
+      "show": "Auditions",
+      "company": "Pittsburgh Opera",
+      "type": "open",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "Auditions",
+      "url": "https://pittsburghopera.org/our-team/auditions",
+      "source": "pittsburghopera.org"
     }
   ]
 }
