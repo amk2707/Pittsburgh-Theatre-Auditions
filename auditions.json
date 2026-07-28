@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-07-27T14:03:59.894409+00:00",
-  "count": 15,
+  "last_updated": "2026-07-28T13:23:45.122954+00:00",
+  "count": 11,
   "auditions": [
     {
       "show": "Auditions",
@@ -26,7 +26,7 @@
       "show": "PROFESSIONAL AUDITIONS",
       "company": "Pittsburgh Musical Theater",
       "type": "musical",
-      "dates": "June 30, 2026, September 6, 2026, September 25, 2026",
+      "dates": "July 27",
       "location": "Street Pittsburgh, PA 15220 Attention",
       "details": "Shows & Events 26/27 SEASON Upcoming Shows EVIL DEAD THE MUSICAL MATILDA THE MUSICAL A LYRICAL CHRISTMAS CAROL HOW TO TRAIN YOUR DRAGON JR. MISS SAIGON INTO THE WOODS SR. MILLION DOLLAR QUARTET VIEW FULL SEASON SPECIAL EVENTS Student Matinées Broadway at the O",
       "url": "https://pittsburghmusicals.com/work/audition",
@@ -51,46 +51,6 @@
       "details": "To schedule an audition, you must be a registered student. For more information refer to our Audition Information (Under 18) .",
       "url": "https://pittsburghmusicals.com/work/minors",
       "source": "pittsburghmusicals.com"
-    },
-    {
-      "show": "AUDITIONS",
-      "company": "Prime Stage Theatre",
-      "type": "play",
-      "dates": "July 20",
-      "location": "Nonprofits Link to Greater Pittsburgh Arts Council Link to PA Council on the Arts Link to ",
-      "details": "Home Events Current Events Monday Specials Past Events Drama Awards Productions Productions Tickets Monday Specials Mr Edgar A Poe Presents Freedom House Speak Past Sprouts Productions Rosa Parks and the Montgomery Bus Boycott The Boxcar-Children Harriet-Tubma",
-      "url": "https://primestage.com/about-2/auditions",
-      "source": "primestage.com"
-    },
-    {
-      "show": "Company Auditions for the 2026-27 Season",
-      "company": "Pittsburgh Ballet Theatre",
-      "type": "ballet",
-      "dates": "March 15, 2026, August 20, May 20",
-      "location": "Application Guidelines Pittsburgh Ballet Theatre",
-      "details": "Pittsburgh Ballet Theatre Left Arrow Right Arrow Close Expand Skip to content Menu Contact/Location Tickets 2026-2027 Season Giselle with the PBT Orchestra The Nutcracker Alice in Wonderland Spring Mix: World Premieres The Sleeping Beauty with the PBT Orchestr",
-      "url": "https://pbt.org/company-auditions",
-      "source": "pbt.org"
-    },
-    {
-      "show": "Auditions",
-      "company": "Pittsburgh Ballet Theatre",
-      "type": "ballet",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "Auditions",
-      "url": "https://pbt.org/pbts/auditions25",
-      "source": "pbt.org"
-    },
-    {
-      "show": "Careers & Auditions",
-      "company": "Pittsburgh Ballet Theatre",
-      "type": "ballet",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "Careers & Auditions",
-      "url": "https://pbt.org/the-company/about/employment",
-      "source": "pbt.org"
     },
     {
       "show": "AUDITIONS",
