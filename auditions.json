@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-01T12:47:09.035133+00:00",
-  "count": 9,
+  "last_updated": "2026-08-02T12:49:39.588339+00:00",
+  "count": 15,
   "auditions": [
     {
       "show": "Auditions",
@@ -53,24 +53,84 @@
       "source": "pittsburghmusicals.com"
     },
     {
-      "show": "One moment, please...",
+      "show": "AUDITIONS",
       "company": "Prime Stage Theatre",
       "type": "play",
-      "dates": "Check website for dates",
-      "location": "840 W Saw Mill Run Blvd, Pittsburgh, PA",
-      "details": "Please wait while your request is being verified...",
+      "dates": "July 20",
+      "location": "Nonprofits Link to Greater Pittsburgh Arts Council Link to PA Council on the Arts Link to ",
+      "details": "Home Events Current Events Monday Specials Past Events Drama Awards Productions Productions Tickets Monday Specials Mr Edgar A Poe Presents Freedom House Speak Past Sprouts Productions Rosa Parks and the Montgomery Bus Boycott The Boxcar-Children Harriet-Tubma",
       "url": "https://primestage.com/about-2/auditions",
       "source": "primestage.com"
     },
     {
-      "show": "One moment, please...",
+      "show": "Company Auditions for the 2026-27 Season",
+      "company": "Pittsburgh Ballet Theatre",
+      "type": "ballet",
+      "dates": "March 15, 2026, August 20, May 20",
+      "location": "Application Guidelines Pittsburgh Ballet Theatre",
+      "details": "Pittsburgh Ballet Theatre Left Arrow Right Arrow Close Expand Skip to content Menu Contact/Location Tickets 2026-2027 Season Giselle with the PBT Orchestra The Nutcracker Alice in Wonderland Spring Mix: World Premieres The Sleeping Beauty with the PBT Orchestr",
+      "url": "https://pbt.org/company-auditions",
+      "source": "pbt.org"
+    },
+    {
+      "show": "Auditions",
       "company": "Pittsburgh Ballet Theatre",
       "type": "ballet",
       "dates": "Check website for dates",
       "location": "Pittsburgh, PA",
-      "details": "Loader Please wait while your request is being verified...",
-      "url": "https://pbt.org/company-auditions",
+      "details": "Auditions",
+      "url": "https://pbt.org/pbts/auditions25",
       "source": "pbt.org"
+    },
+    {
+      "show": "Careers & Auditions",
+      "company": "Pittsburgh Ballet Theatre",
+      "type": "ballet",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "Careers & Auditions",
+      "url": "https://pbt.org/the-company/about/employment",
+      "source": "pbt.org"
+    },
+    {
+      "show": "AUDITIONS",
+      "company": "Front Porch Theatricals",
+      "type": "ballet",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "top of page Pittsburgh’s Boutique Professional Musical Theater Company HOME TICKETS AUDITIONS INTERNSHIPS PAST SEASONS 2025 Baby 2025 Sunday in the Park with George 2023 Falsettos 2023 Merrily We Roll Along 2022 A Man of No Importance 2022 Grand Hotel 2019 Bri",
+      "url": "https://frontporchpgh.com/auditions",
+      "source": "frontporchpgh.com"
+    },
+    {
+      "show": "2026 AUDITION BOOKLET",
+      "company": "Pittsburgh Unifieds",
+      "type": "open",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "2026 AUDITION BOOKLET",
+      "url": "https://pittsburghunifiedsauditions.com/2025-audition-booklet",
+      "source": "pittsburghunifiedsauditions.com"
+    },
+    {
+      "show": "IN-PERSON MT/ACTING AUDITION",
+      "company": "Pittsburgh Unifieds",
+      "type": "open",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "IN-PERSON MT/ACTING AUDITION",
+      "url": "https://pittsburghunifiedsauditions.com/in-person-mt-acting-auditions",
+      "source": "pittsburghunifiedsauditions.com"
+    },
+    {
+      "show": "VIRTUAL MT/ACTING AUDITION",
+      "company": "Pittsburgh Unifieds",
+      "type": "open",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "VIRTUAL MT/ACTING AUDITION",
+      "url": "https://pittsburghunifiedsauditions.com/virtual-mt-acting-auditions",
+      "source": "pittsburghunifiedsauditions.com"
     },
     {
       "show": "Auditions",
