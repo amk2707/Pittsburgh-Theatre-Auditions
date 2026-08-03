@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-02T12:49:39.588339+00:00",
-  "count": 15,
+  "last_updated": "2026-08-03T14:09:24.774120+00:00",
+  "count": 10,
   "auditions": [
     {
       "show": "Auditions",
@@ -101,56 +101,6 @@
       "details": "top of page Pittsburgh’s Boutique Professional Musical Theater Company HOME TICKETS AUDITIONS INTERNSHIPS PAST SEASONS 2025 Baby 2025 Sunday in the Park with George 2023 Falsettos 2023 Merrily We Roll Along 2022 A Man of No Importance 2022 Grand Hotel 2019 Bri",
       "url": "https://frontporchpgh.com/auditions",
       "source": "frontporchpgh.com"
-    },
-    {
-      "show": "2026 AUDITION BOOKLET",
-      "company": "Pittsburgh Unifieds",
-      "type": "open",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "2026 AUDITION BOOKLET",
-      "url": "https://pittsburghunifiedsauditions.com/2025-audition-booklet",
-      "source": "pittsburghunifiedsauditions.com"
-    },
-    {
-      "show": "IN-PERSON MT/ACTING AUDITION",
-      "company": "Pittsburgh Unifieds",
-      "type": "open",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "IN-PERSON MT/ACTING AUDITION",
-      "url": "https://pittsburghunifiedsauditions.com/in-person-mt-acting-auditions",
-      "source": "pittsburghunifiedsauditions.com"
-    },
-    {
-      "show": "VIRTUAL MT/ACTING AUDITION",
-      "company": "Pittsburgh Unifieds",
-      "type": "open",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "VIRTUAL MT/ACTING AUDITION",
-      "url": "https://pittsburghunifiedsauditions.com/virtual-mt-acting-auditions",
-      "source": "pittsburghunifiedsauditions.com"
-    },
-    {
-      "show": "Auditions",
-      "company": "Pittsburgh Opera",
-      "type": "open",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "Auditions",
-      "url": "https://pittsburghopera.org/resident-artists/auditions",
-      "source": "pittsburghopera.org"
-    },
-    {
-      "show": "Auditions",
-      "company": "Pittsburgh Opera",
-      "type": "open",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "Auditions",
-      "url": "https://pittsburghopera.org/our-team/auditions",
-      "source": "pittsburghopera.org"
     }
   ]
 }
