@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-11T12:34:47.191714+00:00",
-  "count": 15,
+  "last_updated": "2026-08-12T12:37:24.427980+00:00",
+  "count": 13,
   "auditions": [
     {
       "show": "Auditions",
@@ -53,43 +53,23 @@
       "source": "pittsburghmusicals.com"
     },
     {
-      "show": "AUDITIONS",
+      "show": "One moment, please...",
       "company": "Prime Stage Theatre",
       "type": "play",
-      "dates": "July 20",
-      "location": "Nonprofits Link to Greater Pittsburgh Arts Council Link to PA Council on the Arts Link to ",
-      "details": "Home Events Current Events Monday Specials Past Events Drama Awards Productions Productions Tickets Monday Specials Mr Edgar A Poe Presents Freedom House Speak Past Sprouts Productions Rosa Parks and the Montgomery Bus Boycott The Boxcar-Children Harriet-Tubma",
+      "dates": "Check website for dates",
+      "location": "840 W Saw Mill Run Blvd, Pittsburgh, PA",
+      "details": "Please wait while your request is being verified...",
       "url": "https://primestage.com/about-2/auditions",
       "source": "primestage.com"
     },
     {
-      "show": "Company Auditions for the 2026-27 Season",
+      "show": "One moment, please...",
       "company": "Pittsburgh Ballet Theatre",
       "type": "ballet",
-      "dates": "March 15, 2026, August 20, May 20",
-      "location": "Application Guidelines Pittsburgh Ballet Theatre",
-      "details": "Pittsburgh Ballet Theatre Left Arrow Right Arrow Close Expand Skip to content Menu Contact/Location Tickets 2026-2027 Season Giselle with the PBT Orchestra The Nutcracker Alice in Wonderland Spring Mix: World Premieres The Sleeping Beauty with the PBT Orchestr",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "Loader Please wait while your request is being verified...",
       "url": "https://pbt.org/company-auditions",
-      "source": "pbt.org"
-    },
-    {
-      "show": "Auditions",
-      "company": "Pittsburgh Ballet Theatre",
-      "type": "ballet",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "Auditions",
-      "url": "https://pbt.org/pbts/auditions25",
-      "source": "pbt.org"
-    },
-    {
-      "show": "Careers & Auditions",
-      "company": "Pittsburgh Ballet Theatre",
-      "type": "ballet",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "Careers & Auditions",
-      "url": "https://pbt.org/the-company/about/employment",
       "source": "pbt.org"
     },
     {
