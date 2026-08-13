@@ -1,25 +1,15 @@
 {
-  "last_updated": "2026-08-12T12:37:24.427980+00:00",
-  "count": 13,
+  "last_updated": "2026-08-13T12:38:13.869465+00:00",
+  "count": 14,
   "auditions": [
     {
       "show": "Auditions",
       "company": "Pittsburgh CLO",
       "type": "musical",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
+      "dates": "November 30, 2026, December 8, December 10",
+      "location": "Pittsburgh PA",
       "details": "Join Our E-Club Buy Tickets Box Office & Ticket Information Group Tickets Student Matinees Frequently Asked Questions Visit A MUSICAL CHRISTMAS CAROL Sensory Friendly Production Accessibility Bag Policy Child Policy Dining Directions and Parking Where to Stay ",
       "url": "https://pittsburghclo.org/about/clo-auditions",
-      "source": "pittsburghclo.org"
-    },
-    {
-      "show": "Summer 2026 Auditions",
-      "company": "Pittsburgh CLO",
-      "type": "musical",
-      "dates": "Check website for dates",
-      "location": "Pittsburgh, PA",
-      "details": "Summer 2026 Auditions",
-      "url": "https://pittsburghclo.org/about/clo-auditions/2026-summer-series-auditions",
       "source": "pittsburghclo.org"
     },
     {
@@ -53,23 +43,43 @@
       "source": "pittsburghmusicals.com"
     },
     {
-      "show": "One moment, please...",
+      "show": "AUDITIONS",
       "company": "Prime Stage Theatre",
       "type": "play",
-      "dates": "Check website for dates",
-      "location": "840 W Saw Mill Run Blvd, Pittsburgh, PA",
-      "details": "Please wait while your request is being verified...",
+      "dates": "July 20",
+      "location": "Nonprofits Link to Greater Pittsburgh Arts Council Link to PA Council on the Arts Link to ",
+      "details": "Home Events Current Events Monday Specials Past Events Drama Awards Productions Productions Tickets Monday Specials Mr Edgar A Poe Presents Freedom House Speak Past Sprouts Productions Rosa Parks and the Montgomery Bus Boycott The Boxcar-Children Harriet-Tubma",
       "url": "https://primestage.com/about-2/auditions",
       "source": "primestage.com"
     },
     {
-      "show": "One moment, please...",
+      "show": "Company Auditions for the 2026-27 Season",
+      "company": "Pittsburgh Ballet Theatre",
+      "type": "ballet",
+      "dates": "March 15, 2026, August 20, May 20",
+      "location": "Application Guidelines Pittsburgh Ballet Theatre",
+      "details": "Pittsburgh Ballet Theatre Left Arrow Right Arrow Close Expand Skip to content Menu Contact/Location Tickets 2026-2027 Season Giselle with the PBT Orchestra The Nutcracker Alice in Wonderland Spring Mix: World Premieres The Sleeping Beauty with the PBT Orchestr",
+      "url": "https://pbt.org/company-auditions",
+      "source": "pbt.org"
+    },
+    {
+      "show": "Auditions",
       "company": "Pittsburgh Ballet Theatre",
       "type": "ballet",
       "dates": "Check website for dates",
       "location": "Pittsburgh, PA",
-      "details": "Loader Please wait while your request is being verified...",
-      "url": "https://pbt.org/company-auditions",
+      "details": "Auditions",
+      "url": "https://pbt.org/pbts/auditions25",
+      "source": "pbt.org"
+    },
+    {
+      "show": "Careers & Auditions",
+      "company": "Pittsburgh Ballet Theatre",
+      "type": "ballet",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "Careers & Auditions",
+      "url": "https://pbt.org/the-company/about/employment",
       "source": "pbt.org"
     },
     {
