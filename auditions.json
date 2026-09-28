@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-27T15:52:22.861420+00:00",
-  "count": 12,
+  "last_updated": "2026-09-28T18:48:47.091452+00:00",
+  "count": 14,
   "auditions": [
     {
       "show": "Auditions",
@@ -93,13 +93,33 @@
       "source": "frontporchpgh.com"
     },
     {
-      "show": "Audition listing",
+      "show": "2026 AUDITION BOOKLET",
       "company": "Pittsburgh Unifieds",
       "type": "open",
       "dates": "Check website for dates",
       "location": "Pittsburgh, PA",
-      "details": "See source website for full audition details.",
-      "url": "https://pittsburghunifiedsauditions.com/",
+      "details": "2026 AUDITION BOOKLET",
+      "url": "https://pittsburghunifiedsauditions.com/2025-audition-booklet",
+      "source": "pittsburghunifiedsauditions.com"
+    },
+    {
+      "show": "IN-PERSON MT/ACTING AUDITION",
+      "company": "Pittsburgh Unifieds",
+      "type": "open",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "IN-PERSON MT/ACTING AUDITION",
+      "url": "https://pittsburghunifiedsauditions.com/in-person-mt-acting-auditions",
+      "source": "pittsburghunifiedsauditions.com"
+    },
+    {
+      "show": "VIRTUAL MT/ACTING AUDITION",
+      "company": "Pittsburgh Unifieds",
+      "type": "open",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "VIRTUAL MT/ACTING AUDITION",
+      "url": "https://pittsburghunifiedsauditions.com/virtual-mt-acting-auditions",
       "source": "pittsburghunifiedsauditions.com"
     },
     {
