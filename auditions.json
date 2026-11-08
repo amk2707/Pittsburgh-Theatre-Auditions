@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-07T17:03:07.654170+00:00",
-  "count": 11,
+  "last_updated": "2026-11-08T17:16:37.718167+00:00",
+  "count": 13,
   "auditions": [
     {
       "show": "Auditions",
@@ -111,6 +111,26 @@
       "details": "VIRTUAL MT/ACTING AUDITION",
       "url": "https://pittsburghunifiedsauditions.com/virtual-mt-acting-auditions",
       "source": "pittsburghunifiedsauditions.com"
+    },
+    {
+      "show": "Auditions",
+      "company": "Pittsburgh Opera",
+      "type": "open",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "Auditions",
+      "url": "https://pittsburghopera.org/resident-artists/auditions",
+      "source": "pittsburghopera.org"
+    },
+    {
+      "show": "Auditions",
+      "company": "Pittsburgh Opera",
+      "type": "open",
+      "dates": "Check website for dates",
+      "location": "Pittsburgh, PA",
+      "details": "Auditions",
+      "url": "https://pittsburghopera.org/our-team/auditions",
+      "source": "pittsburghopera.org"
     }
   ]
 }
